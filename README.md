@@ -8,11 +8,11 @@ Managed with GNU stow. **Quick setup**:
 
 To **stow**:
 
-	cd $HOME/.dotfiles && stow bash feh rofi i3 
+	cd $HOME/.dotfiles && stow base feh rofi i3 
 
 To **unstow**:
 
-	cd $HOME/.dotfiles && stow -D bash feh i3 rofi
+	cd $HOME/.dotfiles && stow -D base feh i3 rofi
 
 ## nvim
 :PlugInstall
