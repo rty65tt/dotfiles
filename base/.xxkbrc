@@ -1,0 +1,29 @@
+
+XXkb.button.enable: no
+XXkb.mainwindow.enable: yes
+XXkb.mainwindow.label.enable: yes
+XXkb.mainwindow.label.font:
+#XXkb.mainwindow.label.font: -*-terminus-bold-r-*--16-160-72-72-c-80-*-*
+#XXkb.mainwindow.label.font: 9x15
+
+XXkb.mainwindow.in_tray: true
+XXkb.mainwindow.type: tray
+XXkb.mainwindow.label.background: #455631
+XXkb.mainwindow.label.foreground: black
+XXkb.mainwindow.label.text.1: EN 
+XXkb.mainwindow.label.text.2: RU 
+XXkb.mainwindow.geometry: 17x15-5-0
+
+
+
+
+
+
+
+
+
+
+
+
+
+

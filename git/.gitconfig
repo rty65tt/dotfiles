@@ -1,0 +1,6 @@
+[user]
+	email = you@example.com
+	name = Your Name
+
+[alias]
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
