@@ -1,0 +1,15 @@
+font = VT323
+corner-radius = 4
+outline-color = #536
+outline-width = 1
+border-color = #536
+border-width = 4
+background-color = #1a1a1a
+text-color = #555
+font-size = 16
+selection-color = #aaa
+prompt-text = "C:\> "
+num-results = 9
+hide-cursor = true
+width = 640
+height = 360
