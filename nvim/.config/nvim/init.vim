@@ -2,32 +2,22 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
 "Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-"Plug 'ctrlpvim/ctrlp.vim' 
-
+Plug 'ctrlpvim/ctrlp.vim' 
 Plug 'jiangmiao/auto-pairs'
-Plug 'rking/ag.vim'
-
-Plug 'mhinz/vim-signify'
-Plug 'airblade/vim-gitgutter'
-
-
-Plug 'dikiaap/minimalist'
 "Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-fugitive'
-"Plug 'vim-syntastic/syntastic'
 
 """ Color Themes
+"Plug 'dikiaap/minimalist'
 "Plug 'morhetz/gruvbox'
 "Plug 'nlknguyen/papercolor-theme'
 "Plug 'sjl/badwolf'
 "Plug 'junegunn/seoul256.vim'
 
-"Plug 'vim-airline/vim-airline'
-"Plug 'vim-airline/vim-airline-themes'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
-
-
 
 set number
 set cursorline
@@ -75,17 +65,14 @@ endfunc
 " Toggle between normal and relative numbering.
 nnoremap <leader>r :call NumberToggle()<cr>"
 
-
-
+"set background=dark
 "colorscheme goodwolf
 "colorscheme peachpuff
 "colorscheme gruvbox
-"set background=dark
 "colorscheme minimalist
 colorscheme default_mod
 
 map <C-b> :NERDTreeToggle<CR>
-
 
 nnoremap <F3> :noh<CR>
 nnoremap <F1> :w<CR>
@@ -108,8 +95,6 @@ if !exists('g:airline_symbols')
     let g:airline_symbols = {}
 endif
 
-
-
 "let g:airline_theme= 'gruvbox'
 let g:gitgutter_terminal_reports_focus=0
 
@@ -118,5 +103,3 @@ let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#whitespace#enabled = 1
 let g:airline#extensions#hunks#non_zero_only = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
-
-
