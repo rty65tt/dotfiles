@@ -7,7 +7,7 @@ Plug 'preservim/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim' 
 Plug 'jiangmiao/auto-pairs'
 "Plug 'mattn/emmet-vim'
-Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
 "Plug 'preservim/tagbar'
 
 """ Color Themes
@@ -27,6 +27,7 @@ syntax enable
 
 set mouse=a " Enable mouse in all in all modes
 set number
+":set colorcolumn=80
 set cursorline
 set showcmd
 set wildmode=list:longest " Complete only until point of ambiguity
