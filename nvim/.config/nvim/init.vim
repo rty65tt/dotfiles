@@ -2,9 +2,9 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
 "Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-"Plug 'preservim/nerdtree'
+Plug 'preservim/nerdtree'
 "Plug 'ryanoasis/vim-devicons'
-"Plug 'ctrlpvim/ctrlp.vim' 
+Plug 'ctrlpvim/ctrlp.vim' 
 Plug 'jiangmiao/auto-pairs'
 "Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-fugitive'
@@ -58,12 +58,21 @@ set nobackup            " Отключить резервные копии фа�
 
 let mapleader="\<SPACE>"
 nmap <Leader>s :%s//g<Left><Left>
-" Open file menu
-"nnoremap <Leader>o :CtrlP<CR>
-" Open buffer menu
-"nnoremap <Leader>b :CtrlPBuffer<CR>
-" Open most recently used files
-"nnoremap <Leader>f :CtrlPMRUFiles<CR>
+
+"nnoremap <Leader>o :CtrlP<CR> " Open file menu
+nnoremap <Leader>b :CtrlPBuffer<CR> " Open buffer menu
+"nnoremap <Leader>f :CtrlPMRUFiles<CR> " Open most recently used files
+
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <leader>t :NERDTreeToggle<CR><ESC>
+"nnoremap <C-n> :NERDTree<CR>
+"nnoremap <C-t> :NERDTreeToggle<CR>
+"nnoremap <C-f> :NERDTreeFind<CR>
+
+"nmap <F8> :TagbarToggle<CR>
+
+nnoremap <F3> :noh<CR>
+nnoremap <F2> :w<CR>
 
 " Relative numbering
 function! NumberToggle()
@@ -85,16 +94,6 @@ nnoremap <leader>r :call NumberToggle()<cr>"
 "colorscheme minimalist
 colorscheme default_mod
 
-nnoremap <leader>n :NERDTreeFocus<CR>
-nnoremap <leader>t :NERDTreeToggle<CR>
-"nnoremap <C-n> :NERDTree<CR>
-"nnoremap <C-t> :NERDTreeToggle<CR>
-"nnoremap <C-f> :NERDTreeFind<CR>
-
-"nmap <F8> :TagbarToggle<CR>
-
-nnoremap <F3> :noh<CR>
-"nnoremap <F2> :w<CR>
 :hi Search cterm=NONE ctermfg=black ctermbg=darkyellow
 
 cmap w!! w !sudo tee > /dev/null %
