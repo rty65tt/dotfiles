@@ -22,14 +22,13 @@ Plug 'tpope/vim-fugitive'
 "Plug 'sjl/badwolf'
 "Plug 'junegunn/seoul256.vim'
 
-"Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline'
 "Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
-
-
 set number
+set relativenumber
 set cursorline
 set showcmd
 set wildmenu
@@ -94,7 +93,7 @@ nnoremap <F1> :w<CR>
 
 cmap w!! w !sudo tee > /dev/null %
 
-let g:airline_theme='base16_grayscale'
+"let g:airline_theme='base16_grayscale'
 "let g:airline_theme='alduin'
 "let g:airline_theme='minimalist'
 
