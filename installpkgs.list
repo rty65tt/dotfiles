@@ -8,6 +8,7 @@ brightnessctl
 cmus
 dmenu
 git
+gmrun
 grim
 grub
 gst-plugin-pipewire
@@ -27,6 +28,7 @@ linux-headers
 man-db
 mc
 nano
+ncdu
 neovim
 numlockx
 openssh
@@ -37,10 +39,12 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 polybar
+rofi
 slurp
 smartmontools
 stow
 thunar
+tldr
 tmux
 ttf-font-awesome
 ttf-roboto-mono

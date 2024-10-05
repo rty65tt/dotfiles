@@ -26,8 +26,11 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-#bindsym $mod+d exec --no-startup-id dmenu_run -fn "Terminus:pixelsize=10"  
+bindsym $mod+d exec --no-startup-id rofi -show run -font "xos4 terminus 10"  -lines 12 -no-levenshtein-sort -lazy-filter-limit 5500 -fullscreen
+#bindsym $mod+d exec --no-startup-id dmenu_run -fn "Terminus:pixelsize=10"
 bindsym $mod+z exec --no-startup-id i3-dmenu-desktop
+
+bindsym $mod+F2 exec --no-startup-id gmrun
 
 # change focus
 bindsym $mod+j focus left
@@ -197,12 +200,11 @@ bindsym $mod+u border none
 bindsym $mod+y border pixel 1
 bindsym $mod+n border normal
 
-bindsym $mod+d exec --no-startup-id rofi -show run -font "xos4 terminus 10"  -lines 12 -no-levenshtein-sort -lazy-filter-limit 5500 -fullscreen
-  
-bindsym $mod+F2 exec --no-startup-id gmrun
 
 #bindsym $mod+x move scratchpad
 #bindsym $mod+Shift+x scratchpad show
 
 focus_follows_mouse no
+
+exec VBoxClient-all
 

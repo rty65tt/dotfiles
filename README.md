@@ -17,3 +17,8 @@ To **unstow**:
 ## nvim
 :PlugInstall
 
+## install pkgs (installpgs.list is 'pacman -Qeq')
+```
+sudo pacman -S --needed $(cat ./installpkgs.list)
+```
+
