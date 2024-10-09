@@ -22,3 +22,23 @@ To **unstow**:
 sudo pacman -S --needed $(cat ./installpkgs.list)
 ```
 
+## Clean
+```
+pacman -Qtdq | sudo pacman -Rns -
+du -hs ~/.cache
+```
+
+## Compact VM
+```
+dd if=/dev/zero of=/var/tmp/bigemptyfile bs=4096k ; rm /var/tmp/bigemptyfile
+```
+
+### Show top 50 largest packages
+```
+expac -HM '%m %n' | sort -h | tail -50
+
+```
+
+
+
+
