@@ -9,12 +9,12 @@ hide_edge_borders none
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:9x15 12
+font pango:9x15 13
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 12
-font pango:UbuntuMonoNerdFont-Regular 12
+font pango:UbuntuMonoNerdFont-Regular 13
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -26,7 +26,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id rofi -show run -font "xos4 terminus 10"  -lines 12 -no-levenshtein-sort -lazy-filter-limit 5500 -fullscreen
+bindsym $mod+d exec --no-startup-id rofi -show run -font "xos4 terminus 13"  -lines 12 -no-levenshtein-sort -lazy-filter-limit 5500 -fullscreen
 #bindsym $mod+d exec --no-startup-id dmenu_run -fn "Terminus:pixelsize=10"
 bindsym $mod+z exec --no-startup-id i3-dmenu-desktop
 
@@ -143,7 +143,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3blocks
-	font pango:xos4 Terminess Powerline, FontAwesome 11
+	font pango:xos4 Terminess Powerline, FontAwesome 13
 	position top
 	workspace_buttons yes
 	strip_workspace_numbers yes
@@ -207,4 +207,9 @@ bindsym $mod+n border normal
 focus_follows_mouse no
 
 exec VBoxClient-all
+
+exec xrandr --output Virtual1 --mode 1920x1080 --rate 30
+
+exec pw-metadata -n settings 0 clock.min-quantum 128
+exec pw-metadata -n settings 0 clock.quantum 512
 
