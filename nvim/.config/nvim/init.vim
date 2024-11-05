@@ -1,8 +1,8 @@
 
 call plug#begin('~/.local/share/nvim/plugged')
 
-"Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-"Plug 'ctrlpvim/ctrlp.vim' 
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'ctrlpvim/ctrlp.vim' 
 
 Plug 'jiangmiao/auto-pairs'
 Plug 'rking/ag.vim'
@@ -35,6 +35,8 @@ set wildmenu
 set wildmode=list:longest " Complete only until point of ambiguity
 set wrapscan " Searches wrap around end of file
 set wildchar=<TAB> " Character for CLI expansion (TAB-completion)
+set tabstop=4
+set shiftwidth=4
 
 set encoding=utf-8
 set laststatus=2 " Always display the statusline in all windows
@@ -60,6 +62,9 @@ nnoremap <Leader>b :CtrlPBuffer<CR>
 " " Open most recently used files
 nnoremap <Leader>f :CtrlPMRUFiles<CR>
 
+nnoremap <Leader>, :bprev<CR>
+nnoremap <Leader>. :bnext<CR>
+map <C-b> :NERDTreeToggle<CR>
 
 " Relative numbering
 function! NumberToggle()
@@ -83,7 +88,6 @@ nnoremap <leader>r :call NumberToggle()<cr>"
 "colorscheme minimalist
 colorscheme default_mod
 
-map <C-b> :NERDTreeToggle<CR>
 
 
 nnoremap <F3> :noh<CR>

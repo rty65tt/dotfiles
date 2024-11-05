@@ -17,7 +17,7 @@ To **unstow**:
 ## nvim
 :PlugInstall
 
-## install pkgs (installpgs.list is 'pacman -Qeq')
+## install pkgs (installpgs.list is 'pacman -Qqe')
 ```
 sudo pacman -S --needed $(cat ./installpkgs.list)
 ```
@@ -26,6 +26,9 @@ sudo pacman -S --needed $(cat ./installpkgs.list)
 ```
 pacman -Qtdq | sudo pacman -Rns -
 du -hs ~/.cache
+sudo pacman -Scc
+journalctl --disk-usage
+journalctl --vacuum-time=7d
 ```
 
 ## Compact VM
