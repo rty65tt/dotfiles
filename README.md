@@ -34,6 +34,7 @@ journalctl --vacuum-time=7d
 ## Compact VM
 ```
 dd if=/dev/zero of=/var/tmp/bigemptyfile bs=4096k ; rm /var/tmp/bigemptyfile
+sudo dd if=/dev/zero of=/boot/bigemptyfile bs=4096k ; sudo /boot/bigemptyfile
 ```
 
 ### Show top 50 largest packages
