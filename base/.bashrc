@@ -26,11 +26,14 @@ alias free='free -h'
 alias cp="cp -i"      # confirm before overwriting something
 alias mv="mv -i" # confirm before overwriting something
 alias vi="nvim"        # honestly, this is just nice
-alias snim="sudo nvim" # edit protected files with vim
+alias snvim="sudo nvim" # edit protected files with vim
 #alias du='ncdu'
 alias man='tldr'
 alias gdb='gdb -silent'
 alias yrt='yaourt'
+
+
+PATH=$PATH:~/.local/bin
 
 #export LANG=en_US.UTF-8
 export HISTCONTROL=ignoredups:erasedups

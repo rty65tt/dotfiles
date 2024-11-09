@@ -1,10 +1,10 @@
-" *** MAIN SETTINGS ******************************
+" ***  MAIN SETTINGS *****************************
 syntax enable
 
 set mouse=a " Enable mouse in all in all modes
 set number
-"set colorcolumn=80
-set cursorline
+"""set colorcolumn=80
+"set cursorline
 set relativenumber
 set showcmd
 set wildmenu  " Отображение полных параметров вкладки командной строки в виде меню
@@ -19,14 +19,16 @@ set hlsearch " выделение поисковых запросов по ум�
 set ignorecase " игнорировать регистр при поиске ...
 set smartcase " ... пока вы не ввели заглавную/прописную.
 set incsearch " найти следующее совпадение по мере ввода запроса.
-set noshowmode " Don't show the current mode -- INSERT -- (airline.vim takes care of us) 
+set noshowmode " Don't show the current mode -- INSERT 
+			   " -- (airline.vim takes care of us) 
 
-set smarttab " At start of line, <Tab> inserts shiftwidth spaces, <Bs> deletes shiftwidth spaces
+set smarttab " At start of line, <Tab> inserts shiftwidth spaces, 
+			 "                   <Bs> deletes shiftwidth spaces
 set tabstop=4
 set shiftwidth=4
-"set softtabstop=4
-"set autoinent
-"set smartindent
+"""set softtabstop=4
+"""set autoinent
+"""set smartindent
 "set termguicolors
 set confirm
 set showmatch           " Show matching brackets.<Paste>
@@ -40,37 +42,27 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-call plug#begin('~/.local/share/nvim/plugged')
+call plug#begin('~/.vim/plugged')
 
 Plug 'preservim/nerdtree'
-"Plug 'ryanoasis/vim-devicons'
+"""Plug 'ryanoasis/vim-devicons'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'jiangmiao/auto-pairs'
-Plug 'airblade/vim-gitgutter'
-Plug 'mhinz/vim-signify'
 Plug 'preservim/tagbar'
-Plug 'tpope/vim-fugitive'
-
-""" nvim-cmp - contex menu copletention
-Plug 'neovim/nvim-lspconfig'
-Plug 'hrsh7th/cmp-nvim-lsp'
-Plug 'hrsh7th/cmp-buffer'
-Plug 'hrsh7th/cmp-path'
-Plug 'hrsh7th/cmp-cmdline'
-Plug 'hrsh7th/nvim-cmp'
 
 """ Color Themes
-"Plug 'dikiaap/minimalist'
-"Plug 'morhetz/gruvbox'
-"Plug 'nlknguyen/papercolor-theme'
-"Plug 'sjl/badwolf'
-"Plug 'junegunn/seoul256.vim'
+"""Plug 'dikiaap/minimalist'
+"""Plug 'morhetz/gruvbox'
+"""Plug 'nlknguyen/papercolor-theme'
+"""Plug 'sjl/badwolf'
+"""Plug 'junegunn/seoul256.vim'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'itchyny/lightline.vim'
 
 call plug#end()
+
 
 " *** KEYBINDING *********************************
 let mapleader="\<SPACE>"
@@ -81,6 +73,7 @@ nnoremap <Leader>f :CtrlPMRUFiles<CR> " Open most recently used files
 
 nnoremap <Leader>, :bprev<CR>
 nnoremap <Leader>. :bnext<CR>
+
 nnoremap <Leader>[ :tabprev<CR>
 nnoremap <Leader>] :tabnext<CR>
 
@@ -92,9 +85,9 @@ nnoremap k kzz
 nnoremap j jzz
 nnoremap <UP>   kzz
 nnoremap <DOWN> jzz
+nnoremap G Gzz
 nnoremap <PageUP>   <PageUP>zz
 nnoremap <PageDOWN> <PageDOWN>zz
-nnoremap G :Gzz
 
 nmap <F8> :TagbarOpenAutoClose<CR>
 
@@ -117,24 +110,25 @@ cmap w!! w !sudo tee > /dev/null %
 
 :hi Search cterm=NONE ctermfg=black ctermbg=darkyellow
 
-" *** THEME SETTINGS *****************************
+" *** THEME ************************************
 "set background=dark
-"colorscheme goodwolf
-"colorscheme peachpuff
-"colorscheme gruvbox
-"colorscheme minimalist
-colorscheme default_mod
+"""colorscheme goodwolf
+"""colorscheme peachpuff
+"""colorscheme gruvbox
+"""colorscheme minimalist
+"colorscheme default_mod
+
 
 " *** AIRLINE SETTINGS ***************************
 let g:airline_theme='base16_grayscale'
-"let g:airline_theme='alduin'
-"let g:airline_theme='minimalist'
+"""let g:airline_theme='alduin'
+"""let g:airline_theme='minimalist'
 
 let g:airline_powerline_fonts = 1
 
 let g:airline#extensions#tabline#enabled = 1
-"let g:airline#extensions#tabline#left_sep = ' '
-"let g:airline#extensions#tabline#left_alt_sep = '|'
+"""let g:airline#extensions#tabline#left_sep = ' '
+"""let g:airline#extensions#tabline#left_alt_sep = '|'
 
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
@@ -143,7 +137,6 @@ endif
 "let g:airline_theme= 'gruvbox'
 let g:gitgutter_terminal_reports_focus=0
 
-let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#whitespace#enabled = 1
 let g:airline#extensions#hunks#non_zero_only = 1
@@ -151,9 +144,10 @@ let g:airline#extensions#tabline#fnamemod = ':t'
 
 " *** KEYMAP FIX *********************************
 "set keymap=russian-jcukenwin
-set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯЖ;ABCDEFGHIJKLMNOPQRSTUVWXYZ:,фисвуапршолдьтщзйкыегмцчняж;abcdefghijklmnopqrstuvwxyz;
+"set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯЖ;ABCDEFGHIJKLMNOPQRSTUVWXYZ:,фисвуапршолдьтщзйкыегмцчняж;abcdefghijklmnopqrstuvwxyz;
 
-" *** External Lua Scripts ***********************
+" *** Extermal Lua Scripts ***********************
+" external config files (in lua)
 "luafile ~/.config/nvim/lsp.lua
 
 
