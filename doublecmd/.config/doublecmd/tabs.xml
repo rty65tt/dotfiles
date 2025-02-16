@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doublecmd>
+  <Tabs>
+    <OpenedTabs>
+      <Left>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="ab9602713e7ba1760659679a2925d82e73f6835f199d5cb37f23e27d42b82f1f">/var/lib/flatpak/runtime/org.freedesktop.Platform/x86_64/23.08/</Path>
+                  <Path Filename="files">/var/lib/flatpak/runtime/org.freedesktop.Platform/x86_64/23.08/ab9602713e7ba1760659679a2925d82e73f6835f199d5cb37f23e27d42b82f1f/</Path>
+                  <Path Filename="lib">/var/lib/flatpak/runtime/org.freedesktop.Platform/x86_64/23.08/ab9602713e7ba1760659679a2925d82e73f6835f199d5cb37f23e27d42b82f1f/files/</Path>
+                  <Path Filename="python3.11">/var/lib/flatpak/runtime/org.freedesktop.Platform/x86_64/23.08/ab9602713e7ba1760659679a2925d82e73f6835f199d5cb37f23e27d42b82f1f/files/lib/</Path>
+                  <Path Filename="..">/var/lib/flatpak/runtime/org.freedesktop.Platform/x86_64/23.08/ab9602713e7ba1760659679a2925d82e73f6835f199d5cb37f23e27d42b82f1f/files/lib/python3.11/</Path>
+                  <Path Filename="x86_64-linux-gnu">/var/lib/flatpak/runtime/org.freedesktop.Platform/x86_64/23.08/ab9602713e7ba1760659679a2925d82e73f6835f199d5cb37f23e27d42b82f1f/files/lib/</Path>
+                  <Path Filename="..">/var/lib/flatpak/runtime/org.freedesktop.Platform/x86_64/23.08/ab9602713e7ba1760659679a2925d82e73f6835f199d5cb37f23e27d42b82f1f/files/lib/x86_64-linux-gnu/</Path>
+                  <Path Filename="x86_64-linux-gnu">/var/lib/flatpak/runtime/org.freedesktop.Platform/x86_64/23.08/ab9602713e7ba1760659679a2925d82e73f6835f199d5cb37f23e27d42b82f1f/files/lib/</Path>
+                  <Path Filename="..">/var/lib/flatpak/runtime/org.freedesktop.Platform/x86_64/23.08/ab9602713e7ba1760659679a2925d82e73f6835f199d5cb37f23e27d42b82f1f/files/lib/x86_64-linux-gnu/</Path>
+                  <Path Filename="x86_64-linux-gnu">/var/lib/flatpak/runtime/org.freedesktop.Platform/x86_64/23.08/ab9602713e7ba1760659679a2925d82e73f6835f199d5cb37f23e27d42b82f1f/files/lib/</Path>
+                  <Path Filename="..">/var/lib/flatpak/runtime/org.freedesktop.Platform/x86_64/23.08/ab9602713e7ba1760659679a2925d82e73f6835f199d5cb37f23e27d42b82f1f/files/lib/x86_64-linux-gnu/</Path>
+                  <Path Filename="..">/var/lib/flatpak/runtime/org.freedesktop.Platform/x86_64/23.08/ab9602713e7ba1760659679a2925d82e73f6835f199d5cb37f23e27d42b82f1f/files/lib/</Path>
+                  <Path Filename="..">/var/lib/flatpak/runtime/org.freedesktop.Platform/x86_64/23.08/ab9602713e7ba1760659679a2925d82e73f6835f199d5cb37f23e27d42b82f1f/files/</Path>
+                  <Path Filename="..">/var/lib/flatpak/runtime/org.freedesktop.Platform/x86_64/23.08/ab9602713e7ba1760659679a2925d82e73f6835f199d5cb37f23e27d42b82f1f/</Path>
+                  <Path Filename="..">/var/lib/flatpak/runtime/org.freedesktop.Platform/x86_64/23.08/</Path>
+                  <Path Filename="..">/var/lib/flatpak/runtime/org.freedesktop.Platform/x86_64/</Path>
+                  <Path Filename="x86_64">/var/lib/flatpak/runtime/org.freedesktop.Platform/</Path>
+                  <Path Filename="..">/var/lib/flatpak/runtime/org.freedesktop.Platform/x86_64/</Path>
+                  <Path Filename="..">/var/lib/flatpak/runtime/org.freedesktop.Platform/</Path>
+                  <Path Filename="..">/var/lib/flatpak/runtime/</Path>
+                  <Path Filename="..">/var/lib/flatpak/</Path>
+                  <Path Filename="..">/var/lib/</Path>
+                  <Path Filename="..">/var/</Path>
+                  <Path Filename="var">/</Path>
+                  <Path Filename="..">/var/</Path>
+                  <Path Filename="var">/</Path>
+                  <Path Filename="lib">/var/</Path>
+                  <Path Filename="flatpak">/var/lib/</Path>
+                  <Path Filename="runtime">/var/lib/flatpak/</Path>
+                  <Path Filename="org.mozilla.firefox.Locale">/var/lib/flatpak/runtime/</Path>
+                  <Path Filename="..">/var/lib/flatpak/runtime/org.mozilla.firefox.Locale/</Path>
+                  <Path Filename="..">/var/lib/flatpak/runtime/</Path>
+                  <Path Filename="repo">/var/lib/flatpak/</Path>
+                  <Path Filename="..">/var/lib/flatpak/repo/</Path>
+                  <Path Filename="runtime">/var/lib/flatpak/</Path>
+                  <Path Filename="..">/var/lib/flatpak/runtime/</Path>
+                  <Path Filename="..">/var/lib/flatpak/</Path>
+                  <Path Filename="..">/var/lib/</Path>
+                  <Path Filename="..">/var/</Path>
+                  <Path Filename="home">/</Path>
+                  <Path Filename="u1">/home/</Path>
+                  <Path Filename="..">/home/u1/</Path>
+                  <Path Filename="..">/home/</Path>
+                  <Path Filename="home">/</Path>
+                  <Path Filename="tmp">/run/media/u1/DATA_1TB/</Path>
+                  <Path Filename="C++">/run/media/u1/DATA_1TB/tmp/</Path>
+                  <Path Filename="..">/run/media/u1/DATA_1TB/tmp/C++/</Path>
+                  <Path Filename="c++">/run/media/u1/DATA_1TB/tmp/</Path>
+                  <Path Filename="..">/run/media/u1/DATA_1TB/tmp/c++/</Path>
+                  <Path Filename="test-64bitpcm.wav">/run/media/u1/DATA_1TB/tmp/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default (2024-05-01@00-39-46)</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Left>
+      <Right>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/u1/.var/app/org.gnome.Builder/data/gnome-builder/flatpak/repo/</Path>
+                  <Path Filename="..">/home/u1/.var/app/org.gnome.Builder/data/gnome-builder/flatpak/</Path>
+                  <Path Filename="flatpak">/home/u1/.var/app/org.gnome.Builder/data/gnome-builder/</Path>
+                  <Path Filename="etc">/home/u1/.var/app/org.gnome.Builder/data/gnome-builder/flatpak/</Path>
+                  <Path Filename="installations.d">/home/u1/.var/app/org.gnome.Builder/data/gnome-builder/flatpak/etc/</Path>
+                  <Path Filename="..">/home/u1/.var/app/org.gnome.Builder/data/gnome-builder/flatpak/etc/installations.d/</Path>
+                  <Path Filename="..">/home/u1/.var/app/org.gnome.Builder/data/gnome-builder/flatpak/etc/</Path>
+                  <Path Filename="..">/home/u1/.var/app/org.gnome.Builder/data/gnome-builder/flatpak/</Path>
+                  <Path Filename="..">/home/u1/.var/app/org.gnome.Builder/data/gnome-builder/</Path>
+                  <Path Filename="..">/home/u1/.var/app/org.gnome.Builder/data/</Path>
+                  <Path Filename="..">/home/u1/.var/app/org.gnome.Builder/</Path>
+                  <Path Filename="org.gnome.Hello">/home/u1/.var/app/</Path>
+                  <Path Filename="cache">/home/u1/.var/app/org.gnome.Hello/</Path>
+                  <Path Filename="..">/home/u1/.var/app/org.gnome.Hello/cache/</Path>
+                  <Path Filename="cache">/home/u1/.var/app/org.gnome.Hello/</Path>
+                  <Path Filename="mesa_shader_cache">/home/u1/.var/app/org.gnome.Hello/cache/</Path>
+                  <Path Filename="00">/home/u1/.var/app/org.gnome.Hello/cache/mesa_shader_cache/</Path>
+                  <Path Filename="..">/home/u1/.var/app/org.gnome.Hello/cache/mesa_shader_cache/00/</Path>
+                  <Path Filename="..">/home/u1/.var/app/org.gnome.Hello/cache/mesa_shader_cache/</Path>
+                  <Path Filename="ccache">/home/u1/.var/app/org.gnome.Hello/cache/</Path>
+                  <Path Filename="f">/home/u1/.var/app/org.gnome.Hello/cache/ccache/</Path>
+                  <Path Filename="9">/home/u1/.var/app/org.gnome.Hello/cache/ccache/f/</Path>
+                  <Path Filename="..">/home/u1/.var/app/org.gnome.Hello/cache/ccache/f/9/</Path>
+                  <Path Filename="..">/home/u1/.var/app/org.gnome.Hello/cache/ccache/f/</Path>
+                  <Path Filename="..">/home/u1/.var/app/org.gnome.Hello/cache/ccache/</Path>
+                  <Path Filename="..">/home/u1/.var/app/org.gnome.Hello/cache/</Path>
+                  <Path Filename="..">/home/u1/.var/app/org.gnome.Hello/</Path>
+                  <Path Filename="..">/home/u1/.var/app/</Path>
+                  <Path Filename="..">/home/u1/.var/</Path>
+                  <Path Filename="..">/home/u1/</Path>
+                  <Path Filename="..">/home/</Path>
+                  <Path Filename="var">/</Path>
+                  <Path Filename="run">/var/</Path>
+                  <Path Filename="..">/var/run/</Path>
+                  <Path Filename="lib">/var/</Path>
+                  <Path Filename="..">/var/lib/</Path>
+                  <Path Filename="lib">/var/</Path>
+                  <Path Filename="flatpak">/var/lib/</Path>
+                  <Path Filename="app">/var/lib/flatpak/</Path>
+                  <Path Filename="..">/var/lib/flatpak/app/</Path>
+                  <Path Filename="repo">/var/lib/flatpak/</Path>
+                  <Path Filename="extensions">/var/lib/flatpak/repo/</Path>
+                  <Path Filename="..">/var/lib/flatpak/repo/extensions/</Path>
+                  <Path Filename="objects">/var/lib/flatpak/repo/</Path>
+                  <Path Filename="..">/var/lib/flatpak/repo/objects/</Path>
+                  <Path Filename="..">/var/lib/flatpak/repo/</Path>
+                  <Path Filename="runtime">/var/lib/flatpak/</Path>
+                  <Path Filename="..">/var/lib/flatpak/runtime/</Path>
+                  <Path Filename="runtime">/var/lib/flatpak/</Path>
+                  <Path Filename="org.kde.Platform">/var/lib/flatpak/runtime/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default (2024-05-01@00-39-46)</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Right>
+    </OpenedTabs>
+  </Tabs>
+</doublecmd>
