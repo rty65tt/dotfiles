@@ -1,0 +1,13 @@
+#!/bin/sh
+
+CHOISEN=$(printf "Lock\nSuspend\nReboot\nShutdown\nLog Out" | tofi --config "$HOME"/.config/tofi/dos)
+
+case "$CHOISEN" in
+	"Lock") lockscreen ;;
+	"Suspend") systemctl suspend-then-hibernate ;;
+	"Reboot") reboot ;;
+	"Shutdown") poweroff ;;
+	"Log Out") hyprctl dispath exit ;;
+	*) exit 1;;
+esac
+

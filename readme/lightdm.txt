@@ -1,0 +1,4 @@
+# lightdm
+sudo nvim /etc/lightdm/lightdm.conf
+greeter-setup-script=/usr/bin/numlockx
+
