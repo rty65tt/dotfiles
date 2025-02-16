@@ -1,0 +1,28 @@
+--------------- 01-05-2024, 00:12:49 ---------------
+| DC v1.1.13 gamma Rev. 453 -- x86_64-Linux-qt6
+| Arch Linux -- Qt 6.7.0, libQt6Pas 6.2.1 | PID 23797
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $0000000000000000
+  $000000000066BAB5
+  $000000000065084B
+  $000000000066F42B
+  $00000000004B8C4B
+  $00000000004BAE4D
+  $00000000004399EB
+  $00000000004B3F82
+
+--------------- 01-05-2024, 00:45:49 ---------------
+| DC v1.1.13 gamma Rev. 453 -- x86_64-Linux-qt6
+| Arch Linux -- Qt 6.7.0, libQt6Pas 6.2.1 | PID 23926
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00000000004399E8
+  $000000000066BAB5
+  $000000000065084B
+  $000000000066F42B
+  $00000000004B8C4B
+  $00000000004BAE4D
+  $00000000004399EB
+  $00000000004B3F82
+

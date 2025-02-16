@@ -1,0 +1,6 @@
+#import = [".config/alacritty/theme-grey.toml",]
+[font]
+normal = {family = "UbuntuMonoNerdFont", style = "Regular"}
+#normal = {family = "ShureTechMonoNerdFont", style = "Regular"}
+size = 16.0
+

@@ -1,0 +1,101 @@
+Xft.dpi:                    96
+Xft.antialias:              trye
+Xft.rgba:                   rgb
+Xft.hinting:                true
+Xft.hintstyle: hintslight
+
+!--- COLOR SETTING -----!
+*background: 		#000000
+*foreground: 		#888888
+*cursorColor:		#668800
+
+! Fade text when focus is lost
+*fading:		15
+*fadeColor:		black
+
+! цвет курсора "pointer"
+!*pointerColor: #245434
+
+
+! 0:black Dark/Light
+!
+*color0:	#0a0a0a
+!
+*color8:	#313131
+
+! 1: red Dark/Light
+! Vol
+*color1:	#862412
+! grep color
+*color9:	#ad4624
+
+! 2: green Dark/Light
+! Var
+*color2:	#325649
+! SameSel 
+*color10:	#45725a
+
+! 3: yellow Dark/Light
+! 
+*color3:	#466104
+! (aur-ver)
+*color11:	#678414
+
+! 4: blue Dark/Light
+! Comments
+*color4:	#254557
+! Dirs
+*color12:	#315691
+
+! 5: magenta Dark/Light
+!
+*color5:	#224422
+! SameSel (aur-repo)
+*color13:	#336633
+
+! 6: cyan Dark/Light
+! 
+*color6:	#044572
+! Links
+*color14:	#127591
+
+! 7: white Dark/Light
+*color7:	#777777
+*color15:	#aaaaaa
+
+
+! FONTS SETTINGS
+# urxvt --help 2>&1| sed -n '/:  /s/^ */! URxvt*/gp'
+!URxvt*termName:	screen-256color
+!URxvt.font:		9x15
+!URxvt.bold.font:		9x15Bold
+!URxvt.font:		xft:terminus:size=11
+!URxvt.bold.font:	xft:terminus:size=11:bold
+!URxvt.font:		-*-terminus-medium-r-*--16-160-72-72-c-80-*-*
+!URxvt.bold.font:	-*-terminus-bold-r-*--16-160-72-72-c-80-*-*
+URxvt.font:		xft:xos4 Terminess Powerline:size=11
+!URxvt.bold.font:	xft:xos4 Terminess Powerline:size=11:bold
+!URxvt.font:		xft:Ubuntu Mono:size=11
+!URxvt.font:		xft:Monospace:size=11
+!URxvt*letterSpace: -1
+
+URxvt.geometry:             90x30
+URxvt.transparent:          false
+! URxvt.urgentOnBell:         true
+! URxvt.visualBell:           true
+!URxvt.loginShell:           true
+!URxvt.internalBorder:       3
+URxvt.lineSpace: 0
+
+URxvt.depth:		32
+URxvt.background:	[80]#000000
+URxvt*scrollBar:	false
+URxvt.scrollStyle: 	rxvt
+URxvt*mouseWheelScrollPage:	false
+URxvt*saveLines:	5000
+URxvt*underlineColor:  #3a3a3a
+
+URxvt.scrollBar: true
+URxvt.scrollBar_right: true
+URxvt.scrollBar_floating: true
+URxvt.scrollstyle: rxvt

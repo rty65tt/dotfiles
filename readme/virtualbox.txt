@@ -1,0 +1,19 @@
+# Fix
+rcvboxadd setup
+sudo vbox-uninstall-guest-additions
+
+
+# Set Resolution ============================
+## Method 1
+sudo pacman -arandr
+arandr
+
+## Method 2
+xrandr
+xrandr --output Virtual1 --mode 1366x768 --rate 30
+xrandr --output Virtual1 --mode 1920x1080
+xrandr --output Virtual1 --auto
+
+echo 'exec xrandr --output Virtual1 --mode 1920x1080' >> .config/i3/config
+# ============================================
+

@@ -1,0 +1,33 @@
+[font]
+normal = {family = "UbuntuMonoNerdFont", style = "Regular"}
+size = 12.0
+
+
+[colors.primary]
+background = "#777777"
+foreground = "#000000"
+
+[colors.cursor]
+text = "#090300"
+cursor = "#a5a2a2"
+
+[colors.normal]
+black = "#090300"
+red = "#db2d20"
+green = "#01a252"
+yellow = "#fded02"
+blue = "#010a74"
+magenta = "#a16a94"
+cyan = "#b5e4f4"
+white = "#a5a2a2"
+
+
+[colors.bright]
+black = "#5c5855"
+red = "#db2d20"
+green = "#01a252"
+yellow = "#fded02"
+blue = "#01a0e4"
+magenta = "#a16a94"
+cyan = "#b5e4f4"
+white = "#f7f7f7"

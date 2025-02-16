@@ -1,0 +1,20 @@
+sudo pacman -S timeshift mc cmus neovim tmux feh bat stow git lazygit dosfstools
+
+== DEV
+sudo pacman -S base-devel gitui cmake
+
+== GNOME ==
+sudo pacman -S gnome-desktop cpupower-gui helvum gparted
+sudo pacman -S alacritty mpv yt-dlp doublecmd-qt6 xsensors
+
+== flatpak
+Amberol 
+G4Music 
+Video Trimmer
+Sublime text
+
+== other
+ImPlay mpvz minitube minitube celluloid
+radeontop
+obsidian
+
