@@ -59,6 +59,10 @@ Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
 
+""" Telescope
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.8' }
+
 """ Color Themes
 "Plug 'dikiaap/minimalist'
 "Plug 'morhetz/gruvbox'
@@ -77,16 +81,22 @@ let mapleader="\<SPACE>"
 nmap <Leader>s :%s//g<Left><Left>
 nnoremap <Leader>o :CtrlP<CR>         " Open file menu
 nnoremap <Leader>b :CtrlPBuffer<CR>   " Open buffer menu
-nnoremap <Leader>f :CtrlPMRUFiles<CR> " Open most recently used files
+" nnoremap <Leader>f :CtrlPMRUFiles<CR> " Open most recently used files
+
+" --- Telescope
+nnoremap <leader>ff <cmd>Telescope find_files<cr>
+nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+nnoremap <leader>fb <cmd>Telescope buffers<cr>
+nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 
 nnoremap <Leader>, :bprev<CR>
 nnoremap <Leader>. :bnext<CR>
 nnoremap <Leader>[ :tabprev<CR>
 nnoremap <Leader>] :tabnext<CR>
 
-nnoremap <leader>n :NERDTreeFocus<CR>
+"nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <leader>t :NERDTreeToggle<CR><ESC>
-map <C-b> :NERDTreeToggle<CR>
+" map <C-b> :NERDTreeToggle<CR>
 
 nnoremap k kzz
 nnoremap j jzz
@@ -155,6 +165,3 @@ set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯЖ;ABCDEFGHIJKLM
 
 " *** External Lua Scripts ***********************
 "luafile ~/.config/nvim/lsp.lua
-
-
-
