@@ -30,5 +30,8 @@ hi CursorColumn ctermbg =0
 hi CursorLine cterm=NONE
 hi CursorLineNr cterm=NONE
 
+hi IncSearch guifg=#5a72d7 guibg=#000000 gui=standout cterm=reverse
+hi Search guifg=#dd7700 guibg=#000000 gui=reverse cterm=reverse
+hi! link CurSearch IncSearch
 
 " vim: sw=2
