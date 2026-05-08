@@ -33,6 +33,8 @@ alias man='tldr'
 alias gdb='gdb -silent'
 alias yrt='yaourt'
 
+# Fix No visible cursor - VMSVGA
+export WLR_NO_HARDWARE_CURSORS=1
 
 PATH=$PATH:~/.local/bin
 
@@ -42,3 +44,4 @@ export HISTSIZE=
 export HISTFILESIZE=
 export VISUAL="nvim"
 export PAGER="less"
+
