@@ -13,7 +13,7 @@ fi
 [[ $- != *i* ]] && return
 
 #PS1='[\u@\h \W]\$ '
-PS1="\[\e[32m\][\[\e[m\]\[\e[32m\]\u\[\e[m\]\[\e[33m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\] \[\e[35m\]\W\[\e[m\]\[\e[32m\]]\[\e[m\]\[\e[33m\]\\$\[\e[m\] "
+PS1="\n\[\e[1;36m\][\[\e[m\]\[\e[36m\]\W\[\e[m\]\[\e[1;36m\]]\[\e[m\]\n\[\e[1;37m\]\\$>\[\e[m\] "
 
 alias sudo="sudo -E " # carry over environment to sudo commands
 alias ls='ls --color=auto'
